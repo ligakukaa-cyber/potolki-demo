@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Клининговая компания в Махачкале — «Chistka Divanov 05», расчет стоимости за минуту</title>
+<meta name="description" content="Клининговая компания «Chistka Divanov 05» в Махачкале: цена от 70 ₽/м², своя химия и техника. Рассчитайте стоимость онлайн.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css?v=466f0399">
+</head>
+<body>
+<a class="skip" href="#quiz">К расчету</a>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="logo" href="#hero"><span class="logo__mark" aria-hidden="true"></span>Chistka Divanov 05</a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#works">Работы</a><a href="#prices">Цены</a><a href="#steps">Как работаем</a><a href="#contacts">Контакты</a>
+    </nav>
+    <a class="top__phone" href="tel:+79382029775">+7 (938) 202-97-75</a>
+    <a class="btn btn--sm" href="#quiz" data-quiz-start>Рассчитать</a>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow">Клининговая компания · Махачкала</p>
+      <h1>Уборка квартир и офисов <span class="accent">от 70 ₽/м²</span> своей химией</h1>
+      <p class="lead">Уборка квартир, домов и офисов: своя химия и техника, цена фиксируется до начала. Ответьте на 5 вопросов — и сразу увидите стоимость уборки.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#quiz" data-quiz-start>Рассчитать стоимость</a>
+        <a class="btn btn--ghost" href="tel:+79382029775">Позвонить</a>
+      </div>
+      <ul class="facts">
+        <li><b>Своя</b><span>химия и техника</span></li><li><b>Фикс.</b><span>цена до начала</span></li><li><b>Выезд</b><span>по городу</span></li>
+      </ul>
+    </div>
+    <figure class="hero__photo">
+      <img src="../assets/img/cleaning/hero.webp?v=f3470bad" alt="Чистая светлая квартира после уборки" width="2560" height="1429" fetchpriority="high">
+    </figure>
+  </div>
+</section>
+
+<section class="sec sec--quiz" id="quiz" aria-label="Расчет стоимости">
+  <div class="wrap">
+    <div class="quiz" data-quiz>
+      <div class="quiz__head">
+        <p class="eyebrow">Расчет за 1 минуту</p>
+        <h2 class="quiz__title">Сколько будет стоить уборка</h2>
+        <div class="quiz__progress" aria-hidden="true"><span data-progress></span></div>
+        <p class="quiz__step-n" data-step-n>Шаг 1 из 5</p>
+      </div>
+
+      <form class="quiz__form" data-quiz-form novalidate>
+        <fieldset class="step is-active" data-step="1">
+          <legend data-empty="Выберите вариант">Что убираем?</legend>
+          <p class="hint">Можно выбрать несколько</p>
+          <div class="chips">
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Квартира"><span>Квартира</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Дом"><span>Дом</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Офис"><span>Офис</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="После ремонта"><span>После ремонта</span></label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="2">
+          <legend>Площадь помещения</legend>
+          <p class="hint">Примерно — по документам или на глаз</p>
+          <div class="area">
+            <output class="area__val"><span data-area-out>60</span> м²</output>
+            <input class="area__range" type="range" name="area" min="20" max="300" step="1" value="60" aria-label="Площадь, м²">
+            <div class="area__scale" aria-hidden="true"><span>20</span><span>100</span><span>200</span><span>300</span></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="3">
+          <legend>Какая уборка нужна?</legend>
+          <div class="cards">
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="support" checked>
+              
+              <span class="card__name">Поддерживающая</span>
+              <span class="card__note">Пыль, полы, кухня, санузел</span>
+              <span class="card__price">70 ₽/м²</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="general" >
+              
+              <span class="card__name">Генеральная</span>
+              <span class="card__note">Все поверхности, налет, жир</span>
+              <span class="card__price">140 ₽/м²</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="renovation" >
+              
+              <span class="card__name">После ремонта</span>
+              <span class="card__note">Строительная пыль и следы ремонта</span>
+              <span class="card__price">190 ₽/м²</span>
+            </label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="4">
+          <legend>Что добавить?</legend>
+          <p class="hint">Можно выбрать несколько или пропустить</p>
+          <div class="cards cards--light">
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="windows">
+              <span class="card__name">Мойка окон</span>
+              <span class="card__note">До 5 окон с обеих сторон</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="sofa">
+              <span class="card__name">Химчистка дивана</span>
+              <span class="card__note">Пятна и запахи</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="fridge">
+              <span class="card__name">Холодильник и духовка</span>
+              <span class="card__note">Внутри</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="balcony">
+              <span class="card__name">Уборка балкона</span>
+              <span class="card__note">С мойкой рам</span>
+            </label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="5">
+          <legend>Когда нужна уборка?</legend>
+          <div class="chips chips--col">
+            
+            <label class="chip"><input type="radio" name="when" value="Сегодня-завтра" checked><span>Сегодня-завтра</span></label>
+            
+            <label class="chip"><input type="radio" name="when" value="На этой неделе" ><span>На этой неделе</span></label>
+            
+            <label class="chip"><input type="radio" name="when" value="Пока сравниваю" ><span>Пока сравниваю</span></label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step step--result" data-step="6">
+          <legend class="sr">Результат расчета</legend>
+          <div class="result">
+            <div class="result__sum">
+              <p class="result__label">Предварительная стоимость</p>
+              <p class="result__price" data-total>—</p>
+              <ul class="result__lines" data-lines></ul>
+              <p class="result__note">Точную цену подтвердит менеджер по фото помещения.</p>
+            </div>
+            <div class="result__form">
+              <p class="result__ask">Куда прислать расчет и записать на уборку?</p>
+              <label class="field"><span>Имя</span><input type="text" name="name" autocomplete="name" maxlength="60"></label>
+              <label class="field"><span>Телефон</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required></label>
+              <div class="chips chips--sm" role="radiogroup" aria-label="Как связаться">
+                
+                <label class="chip"><input type="radio" name="contact" value="WhatsApp" checked><span>WhatsApp</span></label>
+                
+                <label class="chip"><input type="radio" name="contact" value="Telegram" ><span>Telegram</span></label>
+                
+                <label class="chip"><input type="radio" name="contact" value="Звонок" ><span>Звонок</span></label>
+                
+              </div>
+              <label class="agree"><input type="checkbox" name="agree" required> <span>Согласен на обработку персональных данных</span></label>
+              <p class="err" data-err hidden></p>
+              <button class="btn btn--wide" type="submit">Записаться на уборку</button>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="step step--done" data-step="7" hidden>
+          <p class="done__title">Заявка принята</p>
+          <p>Перезвоним в течение 15 минут и подберем время уборки.</p>
+          <p class="done__demo">Это демо: заявка никуда не отправилась. В рабочей версии она сразу приходит владельцу в Telegram.</p>
+        </div>
+
+        <div class="quiz__nav" data-nav>
+          <button class="btn btn--ghost" type="button" data-prev>Назад</button>
+          <button class="btn" type="button" data-next>Далее</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="works">
+  <div class="wrap">
+    <h2 class="sec__t">Наши работы</h2>
+    <div class="works">
+      <figure><img src="../assets/img/cleaning/kitchen.webp?v=40a9be25" alt="Кухня после генеральной уборки" width="1024" height="768" loading="lazy"><figcaption>Кухня · генеральная</figcaption></figure><figure><img src="../assets/img/cleaning/bath.webp?v=c7b4cf5f" alt="Ванная после уборки" width="1024" height="768" loading="lazy"><figcaption>Ванная · налет и плитка</figcaption></figure><figure><img src="../assets/img/cleaning/windows.webp?v=6d9e76fa" alt="Мойка окон" width="1024" height="768" loading="lazy"><figcaption>Мойка окон</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="prices">
+  <div class="wrap prices">
+    <div>
+      <h2 class="sec__t">Цены</h2>
+      <p class="muted">Цена за м² — работа клинеров, своя химия и техника. Все, что сверху, — в таблице.</p>
+      <a class="btn" href="#quiz" data-quiz-start>Рассчитать уборку</a>
+    </div>
+    <table class="ptable">
+      <tbody>
+        <tr><th scope="row">Уборка поддерживающая</th><td>70 ₽/м²</td></tr><tr><th scope="row">Уборка генеральная</th><td>140 ₽/м²</td></tr><tr><th scope="row">Уборка после ремонта</th><td>190 ₽/м²</td></tr>
+        <tr><th scope="row">Мойка окон</th><td>2 000 ₽</td></tr><tr><th scope="row">Химчистка дивана</th><td>2 500 ₽</td></tr><tr><th scope="row">Холодильник и духовка</th><td>1 500 ₽</td></tr><tr><th scope="row">Уборка балкона</th><td>1 000 ₽</td></tr>
+        <tr><th scope="row">Минимальный заказ</th><td>3 000 ₽</td></tr><tr><th scope="row">Глажка белья</th><td>800 ₽/час</td></tr><tr><th scope="row">Выезд за город</th><td>от 500 ₽</td></tr><tr><th scope="row">Расчет по фото</th><td>бесплатно</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="sec" id="steps">
+  <div class="wrap">
+    <h2 class="sec__t">Как работаем</h2>
+    <ol class="steps">
+      <li><b>Заявка</b><span>Рассчитали на сайте или позвонили — перезваниваем за 15 минут.</span></li><li><b>Расчет по фото</b><span>Фиксируем цену до начала уборки.</span></li><li><b>Уборка</b><span>Привозим свою химию и технику.</span></li><li><b>Приемка</b><span>Проверяете вместе с клинером — доделываем на месте.</span></li>
+    </ol>
+  </div>
+</section>
+
+
+
+<section class="sec" id="contacts">
+  <div class="wrap contacts">
+    <div>
+      <h2 class="sec__t">Контакты</h2>
+      <p class="contacts__phone"><a href="tel:+79382029775">+7 (938) 202-97-75</a></p>
+      <p>Махачкала, выезд по городу</p>
+      <p class="muted">Ежедневно 9:00–20:00</p>
+      <ul class="contacts__links">
+        <li><a class="link" href="https://wa.me/79382029775" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a class="link" href="https://t.me/+79382029775" target="_blank" rel="noopener">Telegram</a></li>
+        
+        
+        <li><a class="link" href="https://2gis.ru/makhachkala/firm/70000001111051954" target="_blank" rel="noopener">Мы в 2ГИС</a></li>
+      </ul>
+    </div>
+    <iframe class="map" title="Карта: Махачкала, выезд по городу" loading="lazy"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=47.48472%2C42.97306%2C47.52472%2C42.99306&amp;layer=mapnik&amp;marker=42.98306%2C47.50472"></iframe>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot__name">Chistka Divanov 05</p>
+    <p class="demo-note">Демо-версия сайта, подготовлена для «Chistka Divanov 05». Цены и фото — примерные, их легко заменить на ваши. Заявки из квиза в демо никуда не отправляются.</p>
+  </div>
+</footer>
+
+<a class="sticky-cta btn" href="#quiz" data-quiz-start>Рассчитать стоимость</a>
+
+<script type="application/json" id="quiz-data">{"amount_unit": "\u043c\u00b2", "base_fixed": false, "base_line": "{name} \u0443\u0431\u043e\u0440\u043a\u0430, {n} \u043c\u00b2", "canvas": {"general": {"name": "\u0413\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0430\u044f", "price": 140}, "renovation": {"name": "\u041f\u043e\u0441\u043b\u0435 \u0440\u0435\u043c\u043e\u043d\u0442\u0430", "price": 190}, "support": {"name": "\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0430\u044f", "price": 70}}, "endpoint": "", "light": {"balcony": {"name": "\u0423\u0431\u043e\u0440\u043a\u0430 \u0431\u0430\u043b\u043a\u043e\u043d\u0430", "price": 1000, "unit": "fixed"}, "fridge": {"name": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a \u0438 \u0434\u0443\u0445\u043e\u0432\u043a\u0430", "price": 1500, "unit": "fixed"}, "sofa": {"name": "\u0425\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u0434\u0438\u0432\u0430\u043d\u0430", "price": 2500, "unit": "fixed"}, "windows": {"name": "\u041c\u043e\u0439\u043a\u0430 \u043e\u043a\u043e\u043d", "price": 2000, "unit": "fixed"}}, "total_suffix": ""}</script>
+<script src="../assets/quiz.js?v=a43028e8" defer></script>
+</body>
+</html>
