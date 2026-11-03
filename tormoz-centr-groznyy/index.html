@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Автосервис в Грозном — «Тормоз Центр», расчет стоимости за минуту</title>
+<meta name="description" content="Автосервис «Тормоз Центр» в Грозном: цена от 1 000 ₽, запись онлайн, смета до ремонта. Рассчитайте стоимость онлайн.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css?v=466f0399">
+</head>
+<body>
+<a class="skip" href="#quiz">К расчету</a>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="logo" href="#hero"><span class="logo__mark" aria-hidden="true"></span>Тормоз Центр</a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#works">Сервис</a><a href="#prices">Цены</a><a href="#steps">Как работаем</a><a href="#contacts">Контакты</a>
+    </nav>
+    <a class="top__phone" href="tel:+79289400001">+7 (928) 940-00-01</a>
+    <a class="btn btn--sm" href="#quiz" data-quiz-start>Рассчитать</a>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow">Автосервис · Грозный</p>
+      <h1>Автосервис <span class="accent">от 1 000 ₽</span> — запись онлайн</h1>
+      <p class="lead">Автосервис: смета до начала ремонта, запись онлайн, каждую доп. работу согласуем. Ответьте на 5 вопросов — и сразу увидите стоимость ремонта.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#quiz" data-quiz-start>Рассчитать стоимость</a>
+        <a class="btn btn--ghost" href="tel:+79289400001">Позвонить</a>
+      </div>
+      <ul class="facts">
+        <li><b>4.3</b><span>рейтинг в 2ГИС · 24 оценки</span></li><li><b>Смета</b><span>до ремонта</span></li><li><b>Онлайн</b><span>запись</span></li><li><b>Старые</b><span>детали отдаем</span></li>
+      </ul>
+    </div>
+    <figure class="hero__photo">
+      <img src="../assets/img/auto/hero.webp?v=389db291" alt="Чистый автосервис с машиной на подъемнике" width="2560" height="1429" fetchpriority="high">
+    </figure>
+  </div>
+</section>
+
+<section class="sec sec--quiz" id="quiz" aria-label="Расчет стоимости">
+  <div class="wrap">
+    <div class="quiz" data-quiz>
+      <div class="quiz__head">
+        <p class="eyebrow">Расчет за 1 минуту</p>
+        <h2 class="quiz__title">Сколько будет стоить ремонт</h2>
+        <div class="quiz__progress" aria-hidden="true"><span data-progress></span></div>
+        <p class="quiz__step-n" data-step-n>Шаг 1 из 5</p>
+      </div>
+
+      <form class="quiz__form" data-quiz-form novalidate>
+        <fieldset class="step is-active" data-step="1">
+          <legend data-empty="Выберите вариант">Какая у вас машина?</legend>
+          <p class="hint">Можно выбрать несколько</p>
+          <div class="chips">
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Отечественная"><span>Отечественная</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Корейская"><span>Корейская</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Японская"><span>Японская</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Европейская"><span>Европейская</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Китайская"><span>Китайская</span></label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="2">
+          <legend>Пробег, тыс. км</legend>
+          <p class="hint">Подскажем, какое ТО пора делать</p>
+          <div class="area">
+            <output class="area__val"><span data-area-out>60</span> тыс. км</output>
+            <input class="area__range" type="range" name="area" min="0" max="300" step="1" value="60" aria-label="Пробег">
+            <div class="area__scale" aria-hidden="true"><span>0</span><span>100</span><span>200</span><span>300</span></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="3">
+          <legend>Что нужно сделать?</legend>
+          <div class="cards">
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="to" checked>
+              
+              <span class="card__name">ТО: масло и фильтры</span>
+              <span class="card__note">Замена масла и фильтров</span>
+              <span class="card__price">3 500 ₽</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="diag" >
+              
+              <span class="card__name">Компьютерная диагностика</span>
+              <span class="card__note">Ошибки двигателя и электроники</span>
+              <span class="card__price">1 500 ₽</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="brakes" >
+              
+              <span class="card__name">Тормозные колодки</span>
+              <span class="card__note">Замена на одной оси</span>
+              <span class="card__price">1 800 ₽</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="susp" >
+              
+              <span class="card__name">Диагностика подвески</span>
+              <span class="card__note">Стук, скрип, увод в сторону</span>
+              <span class="card__price">1 000 ₽</span>
+            </label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="4">
+          <legend>Что добавить?</legend>
+          <p class="hint">Можно выбрать несколько или пропустить</p>
+          <div class="cards cards--light">
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="coolant">
+              <span class="card__name">Замена антифриза</span>
+              <span class="card__note">С промывкой системы</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="ac">
+              <span class="card__name">Заправка кондиционера</span>
+              <span class="card__note">С проверкой на утечки</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="align">
+              <span class="card__name">Развал-схождение</span>
+              <span class="card__note">На 3D-стенде</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="tires">
+              <span class="card__name">Шиномонтаж 4 колеса</span>
+              <span class="card__note">С балансировкой</span>
+            </label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="5">
+          <legend>Когда удобно приехать?</legend>
+          <div class="chips chips--col">
+            
+            <label class="chip"><input type="radio" name="when" value="Сегодня-завтра" checked><span>Сегодня-завтра</span></label>
+            
+            <label class="chip"><input type="radio" name="when" value="На этой неделе" ><span>На этой неделе</span></label>
+            
+            <label class="chip"><input type="radio" name="when" value="Пока узнаю цены" ><span>Пока узнаю цены</span></label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step step--result" data-step="6">
+          <legend class="sr">Результат расчета</legend>
+          <div class="result">
+            <div class="result__sum">
+              <p class="result__label">Предварительная стоимость</p>
+              <p class="result__price" data-total>—</p>
+              <ul class="result__lines" data-lines></ul>
+              <p class="result__note">Цена работ без запчастей. Точную назовет мастер после осмотра.</p>
+            </div>
+            <div class="result__form">
+              <p class="result__ask">Куда прислать расчет и записать на ремонт?</p>
+              <label class="field"><span>Имя</span><input type="text" name="name" autocomplete="name" maxlength="60"></label>
+              <label class="field"><span>Телефон</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required></label>
+              <div class="chips chips--sm" role="radiogroup" aria-label="Как связаться">
+                
+                <label class="chip"><input type="radio" name="contact" value="WhatsApp" checked><span>WhatsApp</span></label>
+                
+                <label class="chip"><input type="radio" name="contact" value="Telegram" ><span>Telegram</span></label>
+                
+                <label class="chip"><input type="radio" name="contact" value="Звонок" ><span>Звонок</span></label>
+                
+              </div>
+              <label class="agree"><input type="checkbox" name="agree" required> <span>Согласен на обработку персональных данных</span></label>
+              <p class="err" data-err hidden></p>
+              <button class="btn btn--wide" type="submit">Записаться в сервис</button>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="step step--done" data-step="7" hidden>
+          <p class="done__title">Заявка принята</p>
+          <p>Перезвоним в течение 15 минут и подберем время.</p>
+          <p class="done__demo">Это демо: заявка никуда не отправилась. В рабочей версии она сразу приходит владельцу в Telegram.</p>
+        </div>
+
+        <div class="quiz__nav" data-nav>
+          <button class="btn btn--ghost" type="button" data-prev>Назад</button>
+          <button class="btn" type="button" data-next>Далее</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="works">
+  <div class="wrap">
+    <h2 class="sec__t">Наш сервис</h2>
+    <div class="works">
+      <figure><img src="../assets/img/auto/lift.webp?v=bb63859e" alt="Машина на подъемнике" width="1024" height="768" loading="lazy"><figcaption>Подвеска и тормоза</figcaption></figure><figure><img src="../assets/img/auto/engine.webp?v=6330e37c" alt="Мастер проверяет двигатель" width="1024" height="768" loading="lazy"><figcaption>Диагностика двигателя</figcaption></figure><figure><img src="../assets/img/auto/tires.webp?v=7dc48cad" alt="Шиномонтаж" width="1024" height="768" loading="lazy"><figcaption>Шиномонтаж</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="prices">
+  <div class="wrap prices">
+    <div>
+      <h2 class="sec__t">Цены</h2>
+      <p class="muted">Цена работ без запчастей. Запчасти — ваши или наши, цену называем до начала ремонта.</p>
+      <a class="btn" href="#quiz" data-quiz-start>Рассчитать ремонт</a>
+    </div>
+    <table class="ptable">
+      <tbody>
+        <tr><th scope="row">ТО: масло и фильтры</th><td>3 500 ₽</td></tr><tr><th scope="row">Компьютерная диагностика</th><td>1 500 ₽</td></tr><tr><th scope="row">Тормозные колодки</th><td>1 800 ₽</td></tr><tr><th scope="row">Диагностика подвески</th><td>1 000 ₽</td></tr>
+        <tr><th scope="row">Замена антифриза</th><td>2 500 ₽</td></tr><tr><th scope="row">Заправка кондиционера</th><td>2 500 ₽</td></tr><tr><th scope="row">Развал-схождение</th><td>2 000 ₽</td></tr><tr><th scope="row">Шиномонтаж 4 колеса</th><td>2 400 ₽</td></tr>
+        <tr><th scope="row">Норма-час</th><td>1 800 ₽</td></tr><tr><th scope="row">Хранение шин</th><td>2 500 ₽/сезон</td></tr><tr><th scope="row">Эвакуатор по городу</th><td>от 2 500 ₽</td></tr><tr><th scope="row">Осмотр перед покупкой</th><td>1 500 ₽</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="sec" id="steps">
+  <div class="wrap">
+    <h2 class="sec__t">Как работаем</h2>
+    <ol class="steps">
+      <li><b>Заявка</b><span>Записались на сайте или позвонили — подбираем время.</span></li><li><b>Диагностика и смета</b><span>Цена известна до начала работ.</span></li><li><b>Ремонт</b><span>Каждую дополнительную работу согласуем.</span></li><li><b>Выдача</b><span>Показываем замененные детали.</span></li>
+    </ol>
+  </div>
+</section>
+
+
+
+<section class="sec" id="contacts">
+  <div class="wrap contacts">
+    <div>
+      <h2 class="sec__t">Контакты</h2>
+      <p class="contacts__phone"><a href="tel:+79289400001">+7 (928) 940-00-01</a></p>
+      <p>Грозный</p>
+      <p class="muted">Ежедневно 9:00–20:00</p>
+      <ul class="contacts__links">
+        <li><a class="link" href="https://wa.me/79289400001" target="_blank" rel="noopener">WhatsApp</a></li>
+        
+        
+        
+        <li><a class="link" href="https://2gis.ru/grozny/firm/70000001052912706" target="_blank" rel="noopener">Мы в 2ГИС</a></li>
+      </ul>
+    </div>
+    <iframe class="map" title="Карта: Грозный" loading="lazy"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=45.67486%2C43.30781%2C45.71486%2C43.32781&amp;layer=mapnik&amp;marker=43.31781%2C45.69486"></iframe>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot__name">Тормоз Центр</p>
+    <p class="demo-note">Демо-версия сайта, подготовлена для «Тормоз Центр». Цены и фото — примерные, их легко заменить на ваши. Заявки из квиза в демо никуда не отправляются.</p>
+  </div>
+</footer>
+
+<a class="sticky-cta btn" href="#quiz" data-quiz-start>Рассчитать стоимость</a>
+
+<script type="application/json" id="quiz-data">{"amount_unit": "\u0442\u044b\u0441. \u043a\u043c", "base_fixed": true, "base_line": "{name}", "canvas": {"brakes": {"name": "\u0422\u043e\u0440\u043c\u043e\u0437\u043d\u044b\u0435 \u043a\u043e\u043b\u043e\u0434\u043a\u0438", "price": 1800}, "diag": {"name": "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430", "price": 1500}, "susp": {"name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 \u043f\u043e\u0434\u0432\u0435\u0441\u043a\u0438", "price": 1000}, "to": {"name": "\u0422\u041e: \u043c\u0430\u0441\u043b\u043e \u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u044b", "price": 3500}}, "endpoint": "", "light": {"ac": {"name": "\u0417\u0430\u043f\u0440\u0430\u0432\u043a\u0430 \u043a\u043e\u043d\u0434\u0438\u0446\u0438\u043e\u043d\u0435\u0440\u0430", "price": 2500, "unit": "fixed"}, "align": {"name": "\u0420\u0430\u0437\u0432\u0430\u043b-\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435", "price": 2000, "unit": "fixed"}, "coolant": {"name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0430\u043d\u0442\u0438\u0444\u0440\u0438\u0437\u0430", "price": 2500, "unit": "fixed"}, "tires": {"name": "\u0428\u0438\u043d\u043e\u043c\u043e\u043d\u0442\u0430\u0436 4 \u043a\u043e\u043b\u0435\u0441\u0430", "price": 2400, "unit": "fixed"}}, "total_suffix": ""}</script>
+<script src="../assets/quiz.js?v=a43028e8" defer></script>
+</body>
+</html>

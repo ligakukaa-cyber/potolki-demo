@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ветеринарная клиника в Краснодаре — «Берегиня», расчет стоимости за минуту</title>
+<meta name="description" content="Ветеринарная клиника «Берегиня» в Краснодаре: цена от 900 ₽, запись онлайн без очереди. Рассчитайте стоимость онлайн.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css?v=466f0399">
+</head>
+<body>
+<a class="skip" href="#quiz">К расчету</a>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="logo" href="#hero"><span class="logo__mark" aria-hidden="true"></span>Берегиня</a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#works">Клиника</a><a href="#prices">Цены</a><a href="#steps">Как работаем</a><a href="#contacts">Контакты</a>
+    </nav>
+    <a class="top__phone" href="tel:+79615050316">+7 (961) 505-03-16</a>
+    <a class="btn btn--sm" href="#quiz" data-quiz-start>Рассчитать</a>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow">Ветеринарная клиника · Краснодар</p>
+      <h1>Ветклиника <span class="accent">от 900 ₽</span> — запись онлайн</h1>
+      <p class="lead">Ветеринарная клиника: запись онлайн без очереди, цены называем до начала лечения. Ответьте на 5 вопросов — и сразу увидите стоимость приема.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#quiz" data-quiz-start>Рассчитать стоимость</a>
+        <a class="btn btn--ghost" href="tel:+79615050316">Позвонить</a>
+      </div>
+      <ul class="facts">
+        <li><b>4.6</b><span>рейтинг в 2ГИС · 28 оценок</span></li><li><b>Онлайн</b><span>запись</span></li><li><b>Без</b><span>очереди</span></li><li><b>Цены</b><span>до начала лечения</span></li>
+      </ul>
+    </div>
+    <figure class="hero__photo">
+      <img src="../assets/img/vet/hero.webp?v=bce85af8" alt="Светлый кабинет ветеринарной клиники" width="2560" height="1429" fetchpriority="high">
+    </figure>
+  </div>
+</section>
+
+<section class="sec sec--quiz" id="quiz" aria-label="Расчет стоимости">
+  <div class="wrap">
+    <div class="quiz" data-quiz>
+      <div class="quiz__head">
+        <p class="eyebrow">Расчет за 1 минуту</p>
+        <h2 class="quiz__title">Сколько будет стоить прием</h2>
+        <div class="quiz__progress" aria-hidden="true"><span data-progress></span></div>
+        <p class="quiz__step-n" data-step-n>Шаг 1 из 5</p>
+      </div>
+
+      <form class="quiz__form" data-quiz-form novalidate>
+        <fieldset class="step is-active" data-step="1">
+          <legend data-empty="Выберите питомца">Кто ваш питомец?</legend>
+          <p class="hint">Можно выбрать несколько</p>
+          <div class="chips">
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Кошка"><span>Кошка</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Собака"><span>Собака</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Грызун"><span>Грызун</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Птица"><span>Птица</span></label>
+            
+            <label class="chip"><input type="checkbox" name="rooms" value="Экзотика"><span>Экзотика</span></label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="2">
+          <legend>Сколько питомцев придет?</legend>
+          <p class="hint">Считаем каждого отдельно</p>
+          <div class="area">
+            <output class="area__val"><span data-area-out>1</span> шт.</output>
+            <input class="area__range" type="range" name="area" min="1" max="5" step="1" value="1" aria-label="Питомцев">
+            <div class="area__scale" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>5</span></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="3">
+          <legend>Что нужно?</legend>
+          <div class="cards">
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="visit" checked>
+              
+              <span class="card__name">Прием терапевта</span>
+              <span class="card__note">Осмотр, консультация, назначения</span>
+              <span class="card__price">900 ₽</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="vacc" >
+              
+              <span class="card__name">Вакцинация</span>
+              <span class="card__note">Комплексная прививка и паспорт</span>
+              <span class="card__price">1 800 ₽</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="steril" >
+              
+              <span class="card__name">Стерилизация кошки</span>
+              <span class="card__note">С наркозом и послеоперационной попоной</span>
+              <span class="card__price">4 500 ₽</span>
+            </label>
+            
+            <label class="card">
+              <input type="radio" name="canvas" value="teeth" >
+              
+              <span class="card__name">Чистка зубов</span>
+              <span class="card__note">Ультразвуком, с седацией</span>
+              <span class="card__price">3 500 ₽</span>
+            </label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="4">
+          <legend>Что добавить?</legend>
+          <p class="hint">Можно выбрать несколько или пропустить</p>
+          <div class="cards cards--light">
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="blood">
+              <span class="card__name">Анализ крови</span>
+              <span class="card__note">Общий и биохимия</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="uzi">
+              <span class="card__name">УЗИ</span>
+              <span class="card__note">Брюшная полость</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="chip">
+              <span class="card__name">Чипирование</span>
+              <span class="card__note">С внесением в базу</span>
+            </label>
+            
+            <label class="card">
+              <input type="checkbox" name="light" value="home">
+              <span class="card__name">Выезд на дом</span>
+              <span class="card__note">Врач приедет к вам</span>
+            </label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="5">
+          <legend>Когда удобно прийти?</legend>
+          <div class="chips chips--col">
+            
+            <label class="chip"><input type="radio" name="when" value="Сегодня-завтра" checked><span>Сегодня-завтра</span></label>
+            
+            <label class="chip"><input type="radio" name="when" value="На этой неделе" ><span>На этой неделе</span></label>
+            
+            <label class="chip"><input type="radio" name="when" value="Пока узнаю цены" ><span>Пока узнаю цены</span></label>
+            
+          </div>
+        </fieldset>
+
+        <fieldset class="step step--result" data-step="6">
+          <legend class="sr">Результат расчета</legend>
+          <div class="result">
+            <div class="result__sum">
+              <p class="result__label">Предварительная стоимость</p>
+              <p class="result__price" data-total>—</p>
+              <ul class="result__lines" data-lines></ul>
+              <p class="result__note">Точную стоимость скажет врач после осмотра — до начала лечения.</p>
+            </div>
+            <div class="result__form">
+              <p class="result__ask">Куда прислать расчет и записать на прием?</p>
+              <label class="field"><span>Имя</span><input type="text" name="name" autocomplete="name" maxlength="60"></label>
+              <label class="field"><span>Телефон</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required></label>
+              <div class="chips chips--sm" role="radiogroup" aria-label="Как связаться">
+                
+                <label class="chip"><input type="radio" name="contact" value="WhatsApp" checked><span>WhatsApp</span></label>
+                
+                <label class="chip"><input type="radio" name="contact" value="Telegram" ><span>Telegram</span></label>
+                
+                <label class="chip"><input type="radio" name="contact" value="Звонок" ><span>Звонок</span></label>
+                
+              </div>
+              <label class="agree"><input type="checkbox" name="agree" required> <span>Согласен на обработку персональных данных</span></label>
+              <p class="err" data-err hidden></p>
+              <button class="btn btn--wide" type="submit">Записаться на прием</button>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="step step--done" data-step="7" hidden>
+          <p class="done__title">Заявка принята</p>
+          <p>Перезвоним в течение 15 минут и подберем время приема.</p>
+          <p class="done__demo">Это демо: заявка никуда не отправилась. В рабочей версии она сразу приходит владельцу в Telegram.</p>
+        </div>
+
+        <div class="quiz__nav" data-nav>
+          <button class="btn btn--ghost" type="button" data-prev>Назад</button>
+          <button class="btn" type="button" data-next>Далее</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="works">
+  <div class="wrap">
+    <h2 class="sec__t">Наша клиника</h2>
+    <div class="works">
+      <figure><img src="../assets/img/vet/exam.webp?v=c0f18598" alt="Осмотр собаки в кабинете" width="1024" height="768" loading="lazy"><figcaption>Кабинет терапевта</figcaption></figure><figure><img src="../assets/img/vet/cat.webp?v=b49d2d3c" alt="Осмотр кошки" width="1024" height="768" loading="lazy"><figcaption>Бережно с кошками</figcaption></figure><figure><img src="../assets/img/vet/lobby.webp?v=53d4452e" alt="Зона ожидания клиники" width="1024" height="768" loading="lazy"><figcaption>Зона ожидания</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="prices">
+  <div class="wrap prices">
+    <div>
+      <h2 class="sec__t">Цены</h2>
+      <p class="muted">Цены за одного питомца. Лекарства и расходники — по факту, врач называет их до начала лечения.</p>
+      <a class="btn" href="#quiz" data-quiz-start>Рассчитать прием</a>
+    </div>
+    <table class="ptable">
+      <tbody>
+        <tr><th scope="row">Прием терапевта</th><td>900 ₽</td></tr><tr><th scope="row">Вакцинация</th><td>1 800 ₽</td></tr><tr><th scope="row">Стерилизация кошки</th><td>4 500 ₽</td></tr><tr><th scope="row">Чистка зубов</th><td>3 500 ₽</td></tr>
+        <tr><th scope="row">Анализ крови</th><td>1 200 ₽/шт</td></tr><tr><th scope="row">УЗИ</th><td>1 500 ₽/шт</td></tr><tr><th scope="row">Чипирование</th><td>1 200 ₽/шт</td></tr><tr><th scope="row">Выезд на дом</th><td>1 500 ₽</td></tr>
+        <tr><th scope="row">Повторный прием</th><td>600 ₽</td></tr><tr><th scope="row">Обработка от паразитов</th><td>от 400 ₽</td></tr><tr><th scope="row">Стрижка когтей</th><td>300 ₽</td></tr><tr><th scope="row">Консультация по телефону</th><td>бесплатно</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="sec" id="steps">
+  <div class="wrap">
+    <h2 class="sec__t">Как работаем</h2>
+    <ol class="steps">
+      <li><b>Заявка</b><span>Записались на сайте или позвонили — подбираем время.</span></li><li><b>Прием без очереди</b><span>Приходите к назначенному времени.</span></li><li><b>Осмотр и план лечения</b><span>Все цены называем до начала лечения.</span></li><li><b>Врач на связи</b><span>Отвечаем на вопросы после приема.</span></li>
+    </ol>
+  </div>
+</section>
+
+
+
+<section class="sec" id="contacts">
+  <div class="wrap contacts">
+    <div>
+      <h2 class="sec__t">Контакты</h2>
+      <p class="contacts__phone"><a href="tel:+79615050316">+7 (961) 505-03-16</a></p>
+      <p>Краснодар</p>
+      <p class="muted">Ежедневно 9:00–20:00</p>
+      <ul class="contacts__links">
+        <li><a class="link" href="https://wa.me/79615050316" target="_blank" rel="noopener">WhatsApp</a></li>
+        
+        <li><a class="link" href="https://vk.com/bereginya_krd23" target="_blank" rel="noopener">ВКонтакте</a></li>
+        
+        <li><a class="link" href="https://2gis.ru/krasnodar/firm/3237490513247268" target="_blank" rel="noopener">Мы в 2ГИС</a></li>
+      </ul>
+    </div>
+    <iframe class="map" title="Карта: Краснодар" loading="lazy"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=38.95531%2C45.02547%2C38.99531%2C45.04547&amp;layer=mapnik&amp;marker=45.03547%2C38.97531"></iframe>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot__name">Берегиня</p>
+    <p class="demo-note">Демо-версия сайта, подготовлена для «Берегиня». Цены и фото — примерные, их легко заменить на ваши. Заявки из квиза в демо никуда не отправляются.</p>
+  </div>
+</footer>
+
+<a class="sticky-cta btn" href="#quiz" data-quiz-start>Рассчитать стоимость</a>
+
+<script type="application/json" id="quiz-data">{"amount_unit": "\u0448\u0442.", "base_fixed": false, "base_line": "{name}, \u043f\u0438\u0442\u043e\u043c\u0446\u0435\u0432: {n}", "canvas": {"steril": {"name": "\u0421\u0442\u0435\u0440\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u043a\u043e\u0448\u043a\u0438", "price": 4500}, "teeth": {"name": "\u0427\u0438\u0441\u0442\u043a\u0430 \u0437\u0443\u0431\u043e\u0432", "price": 3500}, "vacc": {"name": "\u0412\u0430\u043a\u0446\u0438\u043d\u0430\u0446\u0438\u044f", "price": 1800}, "visit": {"name": "\u041f\u0440\u0438\u0435\u043c \u0442\u0435\u0440\u0430\u043f\u0435\u0432\u0442\u0430", "price": 900}}, "endpoint": "", "light": {"blood": {"name": "\u0410\u043d\u0430\u043b\u0438\u0437 \u043a\u0440\u043e\u0432\u0438", "price": 1200, "unit": "each"}, "chip": {"name": "\u0427\u0438\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435", "price": 1200, "unit": "each"}, "home": {"name": "\u0412\u044b\u0435\u0437\u0434 \u043d\u0430 \u0434\u043e\u043c", "price": 1500, "unit": "fixed"}, "uzi": {"name": "\u0423\u0417\u0418", "price": 1500, "unit": "each"}}, "total_suffix": ""}</script>
+<script src="../assets/quiz.js?v=a43028e8" defer></script>
+</body>
+</html>
